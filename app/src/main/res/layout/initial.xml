@@ -1,0 +1,44 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Name Input -->
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your name"
+        android:inputType="textPersonName"
+        android:textSize="16sp" />
+
+    <!-- Email Input -->
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your email"
+        android:inputType="textEmailAddress"
+        android:textSize="16sp"
+        android:layout_marginTop="8dp"/>
+
+    <!-- Phone Number Input -->
+    <EditText
+        android:id="@+id/etPhoneNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your phone number"
+        android:inputType="phone"
+        android:textSize="16sp"
+        android:layout_marginTop="8dp"/>
+
+    <!-- Make Payment Button -->
+    <Button
+        android:id="@+id/btnMakePayment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Make Payment"
+        android:layout_marginTop="16dp"/>
+</LinearLayout>
